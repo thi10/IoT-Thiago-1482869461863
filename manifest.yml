@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: IoT-Thiago
+  host: IoT-Thiago
+  disk_quota: 1024M
+  services:
+  - IoT-Thiago-cloudantNoSQLDB
+  - IoT-Thiago-iotf-service
